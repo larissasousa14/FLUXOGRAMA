@@ -1,6 +1,6 @@
 body {
-    background-color: #000000;
-    color: rgb(255, 255, 255);
+    background-color: #f8f0e3;
+    color: #3d3d3d;
     font-family: "Bai Jamjuree", sans-serif;
     display: flex;
     justify-content: center;
@@ -10,9 +10,18 @@ body {
 }
 
 button {
-    background-color: #ff0000;
-    color: white;
+    background-color: #ff9e9e;
+    color: #3d3d3d;
+    border: none;
+    padding: 10px 20px;
     font-family: "Bai Jamjuree", sans-serif;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #ff6b6b;
 }
 
 .passo {
@@ -20,7 +29,8 @@ button {
 }
 
 .passo.ativo {
-    display:block;
+    display: block;
+    text-align: center;
 }
 
 main {
@@ -29,5 +39,8 @@ main {
 }
 
 img {
-    max-width: 90%;
+    max-width: 80%;
+    border: 2px solid #3d3d3d;
+    border-radius: 10px;
+    margin-top: 20px;
 }
